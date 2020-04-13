@@ -154,10 +154,6 @@ gNewGame_HelpDocs7:: @ 81C5981
     .string "game, or on how to do things,\n"
     .string "press the L or R Button.$"
 
-gOakText_AskPlayerGender:: @ 81C59D5
-    .string "Now tell me. Are you a boy?\n"
-    .string "Or are you a girl?$"
-
 gNewGameAdventureIntro1::
     .string "In the world which you are about to\n"
     .string "enter, you will embark on a grand\n"
@@ -213,6 +209,10 @@ gOakText_AskPlayerName:: @ 81C5DEA
 gOakText_FinalizePlayerName:: @ 81C5E13
     .string "Right…\n"
     .string "So your name is {PLAYER}.$"
+
+gOakText_AskPlayerGender:: @ 81C59D5
+    .string "Now tell me. Are you a boy?\n"
+    .string "Or are you a girl?$"
 
 gOakText_IntroduceRival:: @ 81C5E2E
     .string "This is my grandson.\pHe's been your rival since you both\n"

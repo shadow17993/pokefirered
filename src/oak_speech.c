@@ -847,6 +847,7 @@ static void Task_OakSpeech7(u8 taskId)
     }
 }
 
+// Destroys the assets used for the word explanation
 static void Task_OakSpeech8(u8 taskId)
 {
     s16 * data = gTasks[taskId].data;
@@ -867,6 +868,7 @@ static void Task_OakSpeech8(u8 taskId)
     }
 }
 
+// Loads assets for the Oaks Speech section?
 static void Task_OakSpeech9(u8 taskId)
 {
     s16 * data = gTasks[taskId].data;
